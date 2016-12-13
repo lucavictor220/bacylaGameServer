@@ -5,7 +5,15 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 
 # Ignore bundler config.
-/.bundle
+.bundle
+.project
+.starscope.db
+.idea
+*.DS_Store
+.*vimrc
+config/*.json
+node_modules/
+public/assets/
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
@@ -15,3 +23,17 @@
 /log/*
 !/log/.keep
 /tmp
+
+# Ignore the application configuration
+/config/database.yml
+/config/application.yml
+/config/sidekiq.yml
+
+# Ignore the compiled js locales
+*.sublime-project
+*.sublime-workspace
+
+# Ignore ruby-version and ruby-gemset files
+.ruby-version
+.ruby-gemset
+vendor/bundle
