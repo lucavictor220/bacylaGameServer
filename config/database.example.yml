@@ -5,7 +5,7 @@ development:
   encoding: unicode
   pool: 5
   timeout: 5000
-  username: whoop
+  username: username
 
 test:
   adapter: postgresql
@@ -14,7 +14,7 @@ test:
   encoding: unicode
   pool: 5
   timeout: 5000
-  username: whoop
+  username: username
 
 staging:
   adapter: postgresql
@@ -23,4 +23,4 @@ staging:
   encoding: unicode
   pool: 5
   timeout: 5000
-  username: whoop
+  username: username
